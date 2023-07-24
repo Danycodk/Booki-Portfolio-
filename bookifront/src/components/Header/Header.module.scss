@@ -1,0 +1,30 @@
+@import "../../assets/styles/flex"  ;
+@import "../../assets/styles/variables"  ;
+
+header{
+    figure{
+        @include  d-flex-a-j-c(center) ;
+        //width: 121px;
+        height: 79px;
+        img{
+            width: 61px;
+            height: 19px;
+        }
+
+    }
+}
+nav{
+    ul{
+        //width: 80%;
+        //margin:auto ;
+        //display: flex ;
+        //gap: 20px;
+        @include d-flex-a-j-c(initial) ;
+        height: 36px;
+        li{
+            width: 50%;
+            text-align: center;
+            border-bottom-color: $primary;
+        }
+    }
+}

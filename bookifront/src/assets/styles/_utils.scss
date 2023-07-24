@@ -1,0 +1,33 @@
+//@mixin pad-leftRight-5{
+ //   padding: 0 5px 0 5px
+//}
+//@mixin pad-leftRight-10{
+//    padding: 0 5px 0 5px
+//}
+//@mixin pad-topBottom-15{
+//    padding: 0 5px 0 5px
+//}
+////////////////////////////////////////
+@mixin m-r-5($m-g-r){
+    margin-right: $m-g-r;
+}
+///////////////////////////////////////////////////
+@mixin margin-left($m-g){
+    margin-left: $m-g ;
+}
+////////////////////////////////////////////// 
+@mixin margin-top($m-g){
+    margin-top: $m-g  ;
+}
+///////////////////////////////////////////////    
+@mixin margin-bottom($m-g ){
+    margin-bottom: $m-g  ;
+}
+///////////////////////////////////////////////
+@mixin margin-leftRight($m-g-1, $m-g-2 ){
+    margin: 0 $m-g-1 0    $m-g-2   ;
+}
+//////////////////////////////////////////////
+@mixin margin-topBottom($m-g-1, $m-g-2){
+    margin-: $m-g-1  0   $m-g-2  0;
+}

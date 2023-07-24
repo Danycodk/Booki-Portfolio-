@@ -1,0 +1,13 @@
+@mixin d-flex-j-c($variable){
+    display: flex;
+    justify-content: $variable;// center,space-between, space-evenly,space-around...
+}
+@mixin d-flex-columm($variable){
+    display: flex;
+    flex-direction: $variable;
+}
+@mixin d-flex-a-j-c($variable){
+    display: flex;
+    justify-content: $variable;// center,space-between, space-evenly,space-around...
+    align-items: center;
+}

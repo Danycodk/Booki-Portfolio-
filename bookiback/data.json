@@ -1,0 +1,383 @@
+
+    [
+      {
+        "id": "1",
+        "description": "Chambre spacieuse avec vue sur l'océan",
+        "price": "$150",
+        "rating": 5,
+        "cover": "images/cover1.jpg",
+        "pictures": [
+          "images/picture1.jpg",
+          "images/picture2.jpg",
+          "images/picture3.jpg"
+        ],
+        "amenities": [
+          "Wi-Fi",
+          "Piscine",
+          "Climatisation",
+          "Petit-déjeuner inclus"
+        ],
+        "location": "Bord de mer, Ville X",
+        "availability": "Disponible"
+      },
+      {
+        "id": "2",
+        "description": "Appartement moderne en centre-ville",
+        "price": "$200",
+        "rating": 5,
+        "cover": "images/cover2.jpg",
+        "pictures": [
+          "images/picture4.jpg",
+          "images/picture5.jpg",
+          "images/picture6.jpg"
+        ],
+        "amenities": [
+          "Wi-Fi",
+          "Parking",
+          "Cuisine équipée",
+          "Terrasse"
+        ],
+        "location": "Centre-ville, Ville X",
+        "availability": "Disponible"
+      },
+     
+      {
+        "id": "3",
+        "description": "Maison de campagne paisible",
+        "price": "$180",
+        "rating": 5,
+        "cover": "images/cover3.jpg",
+        "pictures": [
+          "images/picture7.jpg",
+          "images/picture8.jpg",
+          "images/picture9.jpg"
+        ],
+        "amenities": [
+          "Jardin",
+          "Barbecue",
+          "Cheminée",
+          "Animaux acceptés"
+        ],
+        "location": "Zone rurale, Ville X",
+        "availability": "Disponible"
+      },
+      {
+        "id": "4",
+        "title": "Chambre avec vue sur l'océan",
+        "description": "Profitez d'une chambre spacieuse avec une vue imprenable sur l'océan. Cette chambre moderne et élégante offre tout le confort dont vous avez besoin lors de votre séjour.",
+        "price": "$150",
+        "rating": 5,
+        "cover": "https://images.unsplash.com/photo-xxxxxxxxxxx",
+        "pictures": [
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx"
+        ],
+        "amenities": [
+          "Wi-Fi",
+          "Piscine",
+          "Climatisation",
+          "Petit-déjeuner inclus"
+        ],
+        "location": "Bord de mer, Ville X",
+        "availability": "Disponible"
+      },
+      {
+        "id": "5",
+        "title": "Appartement en centre-ville",
+        "description": "Découvrez cet appartement moderne et lumineux situé en plein cœur du centre-ville. Idéal pour les voyageurs qui souhaitent être proches des attractions principales de la ville.",
+        "price": "$200",
+        "rating": 5,
+        "cover": "https://images.unsplash.com/photo-xxxxxxxxxxx",
+        "pictures": [
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx"
+        ],
+        "amenities": [
+          "Wi-Fi",
+          "Parking",
+          "Cuisine équipée",
+          "Terrasse"
+        ],
+        "location": "Centre-ville, Ville X",
+        "availability": "Disponible"
+      },
+      {
+        "id": "6",
+        "title": "Chalet de montagne pittoresque",
+        "description": "Profitez de l'atmosphère chaleureuse de ce chalet de montagne niché au cœur des paysages alpins. Parfait pour des vacances relaxantes en pleine nature.",
+        "price": "$180",
+        "rating": 4,
+        "cover": "https://images.unsplash.com/photo-xxxxxxxxxxx",
+        "pictures": [
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx"
+        ],
+        "amenities": [
+          "Cheminée",
+          "Terrasse avec vue",
+          "Cuisine équipée",
+          "Randonnées à proximité"
+        ],
+        "location": "Montagnes, Ville X",
+        "availability": "Disponible"
+      },
+      {
+        "id": "7",
+        "title": "Appartement de luxe en front de mer",
+        "description": "Découvrez le summum du confort dans cet appartement de luxe situé en front de mer. Profitez de vues panoramiques sur l'océan et d'un accès direct à la plage.",
+        "price": "$300",
+        "rating": 5,
+        "cover": "https://images.unsplash.com/photo-xxxxxxxxxxx",
+        "pictures": [
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx"
+        ],
+        "amenities": [
+          "Accès direct à la plage",
+          "Piscine privée",
+          "Salle de sport",
+          "Parking sécurisé"
+        ],
+        "location": "Front de mer, Ville X",
+        "availability": "Disponible"
+      },
+      {
+        "id": "8",
+        "title": "Maison historique au cœur de la vieille ville",
+        "description": "Plongez dans l'histoire en séjournant dans cette maison restaurée datant du XVIIIe siècle. Située au cœur de la charmante vieille ville, elle offre un mélange unique de charme d'époque et de commodités modernes.",
+        "price": "$220",
+        "rating": 4,
+        "cover": "https://images.unsplash.com/photo-xxxxxxxxxxx",
+        "pictures": [
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx"
+        ],
+        "amenities": [
+          "Architecture historique",
+          "Cour intérieure",
+          "Cuisine entièrement équipée",
+          "Proche des sites touristiques"
+        ],
+        "location": "Vieille ville, Ville X",
+        "availability": "Disponible"
+      },
+      {
+        "id": "9",
+        "title": "Villa de luxe avec piscine privée",
+        "description": "Offrez-vous une expérience de séjour exceptionnelle dans cette villa de luxe dotée d'une piscine privée. Profitez d'un cadre somptueux, d'un intérieur élégant et d'un espace extérieur idéal pour se détendre.",
+        "price": "$400",
+        "rating": 5,
+        "cover": "https://images.unsplash.com/photo-xxxxxxxxxxx",
+        "pictures": [
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx"
+        ],
+        "amenities": [
+          "Piscine privée",
+          "Jardin paysager",
+          "Cuisine haut de gamme",
+          "Salle de cinéma"
+        ],
+        "location": "Quartier résidentiel, Ville X",
+        "availability": "Disponible"
+      },
+      {
+        "id": "10",
+        "title": "Loft moderne en centre-ville",
+        "description": "Profitez du style urbain dans ce loft moderne situé en plein centre-ville. Avec son design contemporain, ses hauts plafonds et sa proximité avec les restaurants et les attractions locales, cet endroit est idéal pour les voyageurs citadins.",
+        "price": "$180",
+        "rating": 4,
+        "cover": "https://images.unsplash.com/photo-xxxxxxxxxxx",
+        "pictures": [
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx"
+        ],
+        "amenities": [
+          "Style loft industriel",
+          "Espaces ouverts",
+          "Accès facile aux transports en commun",
+          "Proche des commerces"
+        ],
+        "location": "Centre-ville, Ville X",
+        "availability": "Disponible"
+      },
+      {
+        "id": "11",
+        "title": "Penthouse de luxe avec vue panoramique",
+        "description": "Offrez-vous une expérience de séjour de haut niveau dans ce penthouse de luxe offrant une vue panoramique à couper le souffle. Profitez des équipements haut de gamme et de l'accès exclusif à une terrasse privée.",
+        "price": "$600",
+        "rating": 5,
+        "cover": "https://images.unsplash.com/photo-xxxxxxxxxxx",
+        "pictures": [
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx"
+        ],
+        "amenities": [
+          "Vue panoramique",
+          "Terrasse privée",
+          "Piscine intérieure",
+          "Salle de sport"
+        ],
+        "location": "Centre-ville, Ville X",
+        "availability": "Disponible"
+      },
+      {
+        "id": "12",
+        "title": "Gîte rural au milieu des champs",
+        "description": "Détendez-vous dans ce gîte rural paisible, entouré de vastes champs et de paysages pittoresques. Profitez de la vie à la campagne et découvrez la beauté de la nature environnante.",
+        "price": "$90",
+        "rating": 4,
+        "cover": "https://images.unsplash.com/photo-xxxxxxxxxxx",
+        "pictures": [
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx"
+        ],
+        "amenities": [
+          "Ambiance champêtre",
+          "Jardin privé",
+          "Barbecue",
+          "Balades à vélo"
+        ],
+        "location": "Campagne, Ville X",
+        "availability": "Disponible"
+      },
+      {
+        "id": "13",
+        "title": "Appartement moderne avec vue sur la rivière",
+        "description": "Profitez du confort moderne dans cet appartement élégant offrant une vue pittoresque sur la rivière. Détendez-vous sur le balcon et admirez le paysage tout en étant idéalement situé à proximité des attractions de la ville.",
+        "price": "$150",
+        "rating": 4,
+        "cover": "https://images.unsplash.com/photo-xxxxxxxxxxx",
+        "pictures": [
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx"
+        ],
+        "amenities": [
+          "Vue sur la rivière",
+          "Balcon privé",
+          "Cuisine moderne",
+          "Proche du centre-ville"
+        ],
+        "location": "Rivière, Ville X",
+        "availability": "Disponible"
+      },
+      {
+        "id": "14",
+        "title": "Maison de vacances avec vue sur le lac",
+        "description": "Profitez de moments de détente dans cette charmante maison de vacances offrant une vue imprenable sur le lac. Découvrez la tranquillité de la nature environnante et profitez des activités nautiques à proximité.",
+        "price": "$200",
+        "rating": 4,
+        "cover": "https://images.unsplash.com/photo-xxxxxxxxxxx",
+        "pictures": [
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx"
+        ],
+        "amenities": [
+          "Vue sur le lac",
+          "Terrasse spacieuse",
+          "Cuisine équipée",
+          "Activités nautiques"
+        ],
+        "location": "Lac, Ville X",
+        "availability": "Disponible"
+      },
+      {
+        "id": "15",
+        "title": "Chambre d'hôtel de luxe en centre-ville",
+        "description": "Laissez-vous séduire par le luxe dans cette chambre d'hôtel haut de gamme située en plein centre-ville. Profitez d'un service impeccable, d'un design élégant et d'un accès facile aux attractions et aux boutiques.",
+        "price": "$280",
+        "rating": 5,
+        "cover": "https://images.unsplash.com/photo-xxxxxxxxxxx",
+        "pictures": [
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx"
+        ],
+        "amenities": [
+          "Service de chambre",
+          "Literie de luxe",
+          "Spa sur place",
+          "Centre d'affaires"
+        ],
+        "location": "Centre-ville, Ville X",
+        "availability": "Disponible"
+      },
+      {
+        "id": "16",
+        "title": "Maison d'architecte avec jardin paysager",
+        "description": "Vivez une expérience unique dans cette maison d'architecte exceptionnelle avec un jardin paysager magnifique. Détendez-vous dans un cadre harmonieux et profitez de l'élégance et du design contemporain.",
+        "price": "$400",
+        "rating": 5,
+        "cover": "https://images.unsplash.com/photo-xxxxxxxxxxx",
+        "pictures": [
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx"
+        ],
+        "amenities": [
+          "Design d'architecte",
+          "Jardin paysager",
+          "Piscine extérieure",
+          "Espaces de vie spacieux"
+        ],
+        "location": "Quartier résidentiel, Ville X",
+        "availability": "Disponible"
+      },
+      {
+        "id": "17",
+        "title": "Chalet traditionnel en montagne",
+        "description": "Vivez une expérience chaleureuse dans ce charmant chalet traditionnel niché au cœur des montagnes. Profitez du calme, de l'air frais et des paysages pittoresques tout en vous relaxant près de la cheminée.",
+        "price": "$180",
+        "rating": 4,
+        "cover": "https://images.unsplash.com/photo-xxxxxxxxxxx",
+        "pictures": [
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx"
+        ],
+        "amenities": [
+          "Atmosphère chaleureuse",
+          "Cheminée",
+          "Terrasse avec vue",
+          "Sentiers de randonnée"
+        ],
+        "location": "Montagnes, Ville X",
+        "availability": "Disponible"
+      },
+      {
+        "id": "18",
+        "title": "Bateau de croisière de luxe",
+        "description": "Partez pour une aventure inoubliable à bord de ce bateau de croisière de luxe. Profitez des équipements de première classe, des repas gastronomiques et des destinations exotiques lors de votre voyage en mer.",
+        "price": "$900",
+        "rating": 5,
+        "cover": "https://images.unsplash.com/photo-xxxxxxxxxxx",
+        "pictures": [
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx",
+          "https://images.pexels.com/photo-xxxxxxxxxxx"
+        ],
+        "amenities": [
+          "Cabines luxueuses",
+          "Piscine sur le pont",
+          "Restaurants gastronomiques",
+          "Destinations exotiques"
+        ],
+        "location": "Mer, Ville X",
+        "availability": "Disponible"
+      }
+  
+
+    
+    ]
+  
