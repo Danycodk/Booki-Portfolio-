@@ -4,10 +4,16 @@
 }
 @mixin d-flex-columm($variable){
     display: flex;
-    flex-direction: $variable;
+    justify-content:$variable ;
+    flex-direction: column;
 }
 @mixin d-flex-a-j-c($variable){
     display: flex;
     justify-content: $variable;// center,space-between, space-evenly,space-around...
     align-items: center;
+}
+@mixin d-flex-j-c-FlexWrap($variable){
+    display: flex;
+    justify-content: $variable;// center,space-between, space-evenly,space-around...
+    flex-wrap: wrap;
 }
