@@ -1,4 +1,194 @@
+@import "../../assets/styles/flex"  ;
+@import "../../assets/styles/variables"  ;
+@import "../../assets/styles/_utils"  ;
+.headline{
+    width: 90% ;
+    margin: auto ;
+    h1{
+        font-size: 22px ;
+        padding-bottom: 10px ;
+    }
+    p{
+        font-size: 16px ;
+        margin-bottom: 20px;
+    }
+}
+//----------------------------------------------------------------//
+//-----------------------Form------------------------------------//
+//--------------------------------------------------------------//
+form{
+    display: flex ;
+    width: 90%;
+    margin: auto ;
+    //margin: 20px 0 20px 0;
+    margin-bottom: 20px;
+    height: 49px ;
+    border-radius: 15px ;
+    .locationSchearch{
+        @include d-flex-a-j-c(center) ;
+        width: 50px ;
+        height: 49px ;
+        border-radius: 15px 0px 0px 15px;
+        background-color: $grey;
+    }
+    .flexInputSearchButton{
+        //height: 49px ;
+        display: flex ;
+        input{
+            height: 49px ;
+            width: 200px;
+            font-size: 12px ;
+            border: none ;
+        }
+        .logoSchearch{
+            @include d-flex-a-j-c(center) ;
+            width: 50px ;
+            height: 49px ;
+            border-radius: 0 15px 15px 0;
+            background-color: $primary;
+            i{
+                color: #fff ;
+            }
+        }
+        .buttonTexte{
+            display: none ;
+            color: #fff ;
+            background-color: $primary;
+            
+        }
+    }
+}
+//----------------------------------------------------------------//
+//-----------------------filterBar------------------------------------//
+//--------------------------------------------------------------//
+.filterBar{
+    margin-bottom: 20px ;
+    h2{
+        font-size: 18px ;
+        width: 90%;
+        margin: auto;
+    }
+    ul{
+        @include  d-flex-j-c-FlexWrap(center) ;
+        gap:10px ;
+        li{
+            width: 162px;
+            height: 50px ;
+            border-radius: 25px ;
+            @include d-flex-a-j-c(center) ;
+            gap:10px ;
+            border-width: 2px ;
+            border-color: $grey ;
+            border-style: solid ;
+            color:$primary ;
+        }
+    }
+}
+//----------------------------------------------------------------//
+//-----------------------general------------------------------------//
+//--------------------------------------------------------------//
+.sectionAside{
+    @include d-flex-colummOnly(column-reverse) ;
+    gap: 15px ;
+    h2{
+        width: 90%;
+        margin: auto;
+    }
+}
+.infosBar{
+    @include  d-flex-j-c(center) ;
+    gap: 5px ;
+    font-size: 16px ;
+    width: 90%;
+    margin: auto;
+    height: 38px ;
+    div{
+        @include d-flex-a-j-c(center) ;
+        //align-items: center;
+        width: 24px ;
+        height: 24px ;
+        border-radius: 100%  ;
+        border-width: 1px ;
+        border-color: $grey ;
+        border-style: solid ;
+        background-color: aqua ;
+        i{
+            font-size: 11px;
+        }
+    }
+
+}
+//----------------------------------------------------------------// 
+//----------------------SECTION----------------------------------//
+//--------------------------------------------------------------//
 section{
     height: 500px;
-    background-color: #422525f2;
+    //background-color: #422525f2;
+    figure{
+        width: 90%;
+        //max-width: 335px;
+        margin: auto;
+        height: 207px;
+        border-radius: 20px;
+        padding: 5px 5px 5px 5px;
+        box-shadow:5px 16px 34px 1px rgba(0,0,0,0.28) ;
+
+        img{
+            height: 124px ;
+            width: 100%;
+            //max-width: 335px;
+            margin: auto;
+            object-fit: cover;
+            filter: brightness(70%) ;
+            border-radius: 20px 20px 0 0 ;
+        }
+        figcaption{
+           // height: 64px;
+            @include d-flex-columm(initial) ;
+            gap: 5px ;
+        }
+    }
 }
+//----------------------------------------------------------------//
+//-----------------ASIDE COMPONENT (les plus populaires----------//
+//--------------------------------------------------------------//
+aside{
+    background-color: $grey;
+    figure{
+        @include d-flex-j-c(flex-end) ;
+        background-color: #fff;
+        height: 146px;
+        width: 90%;
+        margin: auto;
+        //gap: 24px ;
+        border-radius:20px ;
+        padding: 5px 0 5px 5px;
+        //max-width: 335px;
+        img{
+            width: 49%;
+            object-fit: cover;
+            filter: brightness(70%) ;
+            //@include margin-left(10px) ;
+            border-radius:  20px 0px 0px 20px;
+            border-width: 5px 0px 5px 5px;
+            border-color: #fff;
+        }
+        figcaption{
+            width: 51%;
+            background-color: #fff;
+            @include d-flex-columm(initial) ;
+            gap: 14px ;
+            border-radius:20px ;
+            padding: 10px 5px 5px 15px;
+            //@include margin-left(20px)
+            div{
+                h3{
+                    padding-bottom: 5px;
+                }
+            }
+        }
+    }
+}
+//----------------------------------------------------------------//
+//-----------------ASIDE COMPONENT (les plus populaires----------//
+//--------------------------------------------------------------//

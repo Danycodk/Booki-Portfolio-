@@ -7,6 +7,10 @@
     justify-content:$variable ;
     flex-direction: column;
 }
+@mixin d-flex-colummOnly($variable){
+    display: flex;
+    flex-direction: $variable ;
+}
 @mixin d-flex-a-j-c($variable){
     display: flex;
     justify-content: $variable;// center,space-between, space-evenly,space-around...
